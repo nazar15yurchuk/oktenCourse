@@ -1,0 +1,19 @@
+img{
+    width: 250px;
+}
+h1{
+    background: indianred;
+    color: ghostwhite;
+}
+p{
+    background: darkred;
+    color: aqua;
+}
+h2{
+    background: darkgoldenrod;
+    color: ghostwhite;
+}
+li{
+    background: greenyellow;
+    color: midnightblue;
+}
