@@ -1,0 +1,35 @@
+.common{
+    width: 550px;
+    box-sizing: border-box;
+}
+.one{
+    background: #d0a1a1;
+    height: 180px;
+    box-sizing: border-box;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+.two{
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 10px 0 10px 0;
+    font-size: 30px;
+    text-align: center;
+
+}
+.three{
+    background: #23a964;
+    box-sizing: border-box;
+    padding-top: 70px;
+}
+.four{
+    background: #f14c4c;
+    height: 200px;
+    box-sizing: border-box;
+    padding: 65px;
+    text-align: center;
+    font-size: 40px;
+}
