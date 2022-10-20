@@ -1,0 +1,46 @@
+.one{
+    background: #00d70a;
+    width: 1000px;
+    height: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+.re{
+    display: block;
+    margin-top: 140px;
+    background: #dce55b;
+    width: 300px;
+    height: 500px;
+    text-align: center;
+}
+.yu{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background: #dce55b;
+    align-items: center;
+    position: relative;
+    top: -50px;
+    left: 33%;
+}
+h2{
+    margin-top: 10px;
+}
+p{
+    font-size: 18px;
+}
+button{
+    font-size: 20px;
+    display: inline;
+    padding: 10px;
+}
+.ee{
+    display: inline;
+    margin-top: 20px;
+}
+i{
+    font-size: 40px;
+    margin-top: 30px;
+}
