@@ -1,0 +1,99 @@
+.one{
+    width: 1200px;
+    height: 700px;
+    background: aquamarine;
+    box-sizing: border-box;
+    padding: 5px;
+
+}
+.two{
+    width: 100%;
+    height: 30%;
+    background: #9262e5;
+    font-size: 40px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.four{
+    width: 100%;
+    height: 200px;
+    background: #00d70a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+.five{
+    width: 33%;
+    height: 270px;
+    background: #d0a1a1;
+    box-sizing: border-box;
+    margin-top: 5px;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+}
+
+.six{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.seven{
+    width: 340px;
+    height: 475px;
+    background: #23a964;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+}
+.yu{
+    width: 900px;
+}
+.three{
+    display: flex;
+}
+
+@media screen and (min-width: 0) and (max-width: 450px){
+    .three{
+        flex-direction: column;
+    }
+    .one{
+        width: 100%;
+    }
+    .yu{
+        width: 100%;
+
+    }
+    .seven{
+        width: 96%;
+        height: 120%;
+
+    }
+    .five{
+        height: 210px;
+    }
+}
+@media screen and (min-width: 450px) and (max-width: 1200px){
+    .one{
+        width: 100%;
+
+    }
+}
